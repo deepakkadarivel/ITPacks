@@ -270,6 +270,9 @@ select {
     justify-content: center;
     text-align: center;
 }
+.content a {
+    text-decoration: none;
+}
 .content .bar-white {
     width: 30%;
     margin-bottom: 20px;
