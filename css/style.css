@@ -182,6 +182,9 @@ select {
     text-decoration: none;
     color: #ffffff;
 }
+.box a:hover {
+    color: #f1f1f1;
+}
 :root {
   --green: #829C53;
   --navyblue: #334878;
@@ -272,6 +275,9 @@ select {
 }
 .content a {
     text-decoration: none;
+}
+.content a:hover {
+    color: #f1f1f1;
 }
 .content .bar-white {
     width: 30%;
