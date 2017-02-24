@@ -39,24 +39,29 @@ body {
     background-size: cover;
     position: relative;
 }
-.menu {
+#menu-container {
+    height: 100%;
+    display: flex;
+}
+#menu-container ul {
+    margin-top: auto;
+    align-self: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px 20px;
+}
+#menu {
     letter-spacing: 2px;
     text-transform: uppercase;
-    font: normal 14px/20px Roboto Condensed;
+    font: normal 14px/30px Roboto Condensed;
     color: #ffffff;
-    /*position: absolute;
-    bottom: 0;*/
-}
-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /*background-color: #333;*/
-}
-
-li {
-    float: left;
 }
 
 li a, .dropbtn {
@@ -67,12 +72,12 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+#menu li a:hover, .dropdown:hover .dropbtn {
     color: black;
     background-color: white;
 }
 
-li.dropdown {
+#menu li.dropdown {
     display: inline-block;
 }
 
@@ -272,6 +277,7 @@ li.dropdown {
     color: var(--white);
 }
 .list-header li a {
+    display: initial;
     font-family: "Hellvetica Neue", Arial, Helvetica, sans-serif;
     letter-spacing: 0px;
     text-transform: none;
