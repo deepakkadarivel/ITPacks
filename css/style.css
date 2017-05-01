@@ -86,7 +86,7 @@ body {
     padding: 0;
     overflow: hidden;
 }
-li a, .dropbtn {
+#menu li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -117,6 +117,10 @@ li a, .dropbtn {
     text-align: left;
 }
 .dropdown-content a:hover {background-color: #f1f1f1}
+
+.submenu {
+    color: black !important;
+}
 
 .dropdown:hover .dropdown-content {
     display: block;

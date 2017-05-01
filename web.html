@@ -8,8 +8,60 @@
     <link rel="stylesheet" href="assets/css/subject.css" />
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- flexbox grid -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+    <!-- Icon Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+
+<!-- head section -->
+<div id="head">
+    <!--<div class="bg">-->
+        <div id="menu-container">
+
+            <ul id="menu">
+                <li><a href="./index.html">HOME</a></li>
+                <li class="dropdown"><a href="./certificates.html" class="dropbtn">CERTIFICATES</a>
+                    <div class="dropdown-content">
+                        <a class="submenu" href="./certificate.html">CERTIFIED ASSOCIATE IN WEB DEVELOPMENT (CPWD)</a>
+                    </div>
+                </li>
+                <li><a href="#">INDUSTRY INPUTS</a></li>
+                <li><a href="#">REGISTERED TRAINING PROVIDERS</a></li>
+                <li><a href="#">VOLUNTEER</a></li>
+                <li><a href="#">CERTIFIED REGISTRY</a></li>
+            </ul>
+
+        </div>
+        <!-- end of menu -->
+
+        <!-- Dropdown for mobile device -->
+        <div id="mobile-menu-container">
+
+            <select>
+                <option value="">HOME</option>
+                <optgroup label="CERTIFICATES">
+                    <!--<select>-->
+                    <option value=""> - CERTIFIED ASSOCIATE IN WEB DEVELOPMENT (CPWD)</option>
+                    <!--</select>-->
+                </optgroup>
+                <option value="">INDUSTRY INPUTS</option>
+                <option value="">REGISTERED TRAINING PROVIDERS</option>
+                <option value="">VOLUNTEER</option>
+                <option value="">CERTIFIED REGISTRY</option>
+            </select>
+        </div>
+        <!-- end of Dropdown for mobile device -->
+</div>
+<!-- end of head section -->
 
 <!-- Wrapper -->
 <div id="wrapper">
