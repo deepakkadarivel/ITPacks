@@ -531,3 +531,77 @@ select {
     text-align: center;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
+
+#ver-zebra
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: auto;
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+#ver-zebra th
+{
+	font-size: 14px;
+	font-weight: normal;
+	padding: 12px 15px;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	color: #039;
+}
+#ver-zebra td
+{
+	padding: 8px 15px;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	color: #669;
+}
+.vzebra-odd
+{
+	background: #eff2ff;
+}
+.vzebra-even
+{
+	background: #e8edff;
+}
+#ver-zebra #vzebra-adventure, #ver-zebra #vzebra-children
+{
+	background: #d0dafd;
+	border-bottom: 1px solid #c8d4fd;
+}
+#ver-zebra #vzebra-comedy, #ver-zebra #vzebra-action
+{
+	background: #dce4ff;
+	border-bottom: 1px solid #d6dfff;
+}
+
+#main table thead {
+     border-bottom-color: #ffffff; 
+}
+
+#main table tbody tr {
+     border-color: #ffffff; 
+}
+
+.w3-container small {
+    color: #FB8C00;
+}
+
+.w3-card-4 {
+    width: 400px;
+    margin: auto;
+}
+
+.enroll-button {
+    width: 100%;
+}
+
+.enroll-button:hover {
+    color: FB8C00;
+}
+
+.w3-light-green h3 {
+    color: white;
+}
+

@@ -1,82 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <title>Home / ITPacks</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobile Development</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/subject.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <link href="css/style.css" rel="stylesheet">
-
     <!-- flexbox grid -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
-
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-
     <!-- Icon Fonts -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
 </head>
 
 <body>
-
     <!-- head section -->
     <div id="head">
-        <div class="bg">
-            <!-- Menu -->
-            <div id="menu-container">
+        <!--<div class="bg">-->
+        <div id="menu-container">
 
-                <div class="container">
-                    <div class="brand-container">
-                        <img src="./assets/logo.png" alt="">
-                        <p>INFORMATION TECHNOLOGY PROFESSIONAL ACCREDITATIONS AND <br />CERTIFICATIONS SOCIETY</p>
-                        <div class="col-xs-1 bar-white"></div>
+            <ul id="menu">
+                <li><a href="./index.html">HOME</a></li>
+                <li class="dropdown"><a href="./certificates.html" class="dropbtn">CERTIFICATES</a>
+                    <div class="dropdown-content">
+                        <a class="submenu" href="./certificate.html">CERTIFIED ASSOCIATE IN WEB DEVELOPMENT (CPWD)</a>
                     </div>
-                </div>
-
-                <ul id="menu">
-                    <li><a href="#">HOME</a></li>
-                    <li class="dropdown"><a href="./certificates.html" class="dropbtn">CERTIFICATES</a>
-                        <div class="dropdown-content">
-                            <a class="submenu" href="./certificate.html">CERTIFIED ASSOCIATE IN WEB DEVELOPMENT (CPWD)</a>
-                        </div>
-                    </li>
-                    <li><a href="#">INDUSTRY INPUTS</a></li>
-                    <li><a href="#">REGISTERED TRAINING PROVIDERS</a></li>
-                    <li><a href="#">VOLUNTEER</a></li>
-                    <li><a href="#">CERTIFIED REGISTRY</a></li>
-                </ul>
-
-            </div>
-            <!-- end of menu -->
-
-            <!-- Dropdown for mobile device -->
-            <div id="mobile-menu-container">
-
-                <div class="container">
-                    <div class="brand-container">
-                        <img src="./assets/logo.png" alt="">
-                        <p>INFORMATION TECHNOLOGY PROFESSIONAL ACCREDITATIONS AND <br />CERTIFICATIONS SOCIETY</p>
-                        <div class="col-xs-3 bar-white"></div>
-                    </div>
-                </div>
-
-                <select>
-                <option value="">HOME</option>
-                <optgroup label="CERTIFICATES">
-                    <!--<select>-->
-                        <option value=""> - CERTIFIED ASSOCIATE IN WEB DEVELOPMENT (CPWD)</option>
-                    <!--</select>-->
-                </optgroup>
-                <option value="">INDUSTRY INPUTS</option>
-                <option value="">REGISTERED TRAINING PROVIDERS</option>
-                <option value="">VOLUNTEER</option>
-                <option value="">CERTIFIED REGISTRY</option>
-                </select>
-            </div>
-            <!-- end of Dropdown for mobile device -->
+                </li>
+                <li><a href="#">INDUSTRY INPUTS</a></li>
+                <li><a href="#">REGISTERED TRAINING PROVIDERS</a></li>
+                <li><a href="#">VOLUNTEER</a></li>
+                <li><a href="#">CERTIFIED REGISTRY</a></li>
+            </ul>
 
         </div>
+        <!-- end of menu -->
+
+        <!-- Dropdown for mobile device -->
+        <div id="mobile-menu-container">
+
+            <select>
+            <option value="">HOME</option>
+            <optgroup label="CERTIFICATES">
+                <!--<select>-->
+                <option value=""> - CERTIFIED ASSOCIATE IN WEB DEVELOPMENT (CPWD)</option>
+                <!--</select>-->
+            </optgroup>
+            <option value="">INDUSTRY INPUTS</option>
+            <option value="">REGISTERED TRAINING PROVIDERS</option>
+            <option value="">VOLUNTEER</option>
+            <option value="">CERTIFIED REGISTRY</option>
+            </select>
+        </div>
+        <!-- end of Dropdown for mobile device -->
     </div>
     <!-- end of head section -->
 
@@ -84,82 +64,221 @@
     <div id="wrapper">
 
         <!-- Header -->
-        <header id="mobile-header" class="alt">
-            <span><img class="mobile-logo" src="images/mobile.svg" alt="" /></span>
+        <header id="header" class="alt">
+            <span class="logo"><img src="images/mobile.svg" alt="" /></span>
             <h1>Mobile Development</h1>
-            <p>Mobile application development is the set of processes and procedures involved in writing software for small, wireless computing devices such as smartphones or tablets.</p>
+            <p>Mobile application development is the set of processes and procedures involved in writing software for small,
+                wireless computing devices such as smartphones or tablets.</p>
+            <p>These applications may be pre-installed on phones during manufacturing platforms, or delivered as web applications
+                using server-side or client-side processing to provide an ‘application-like’ experience within a web browser.
+                Mobile application software developers must consider a long array of screen sizes, hardware specifications,
+                and configurations. Mobile user interfaces rely on mobile back-ends to support access to enterprise systems.
+                The mobile back-end facilitates data routing, security, authentication, authorization, working off-line,
+                and service orchestration.
+            </p>
         </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul>
+                <li><a href="#intro" class="active">Tech Stack</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Introduction -->
+            <!-- Tech Stack -->
+            <section id="intro" class="main">
+                <header class="major special">
+                    <h2>Mobile Development - Tech Stack</h2>
+                </header>
+                <div class="feature-list">
+                    <table id="ver-zebra" summary="Most Favorite Movies">
+                        <colgroup>
+                            <col class="vzebra-odd" />
+                            <col class="vzebra-even" />
+                            <col class="vzebra-odd" />
+                            <col class="vzebra-even" />
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col" id="vzebra-comedy">Operating Systems</th>
+                                <th scope="col" id="vzebra-adventure">Platforms</th>
+                                <th scope="col" id="vzebra-action">Languages</th>
+                                <th scope="col" id="vzebra-children">API</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="./stack/apple_ios.html"> Apple iOS</a></td>
+                                <td>Xamarin</td>
+                                <td>Swift</td>
+                                <td>Cocoa</td>
+                            </tr>
+                            <tr>
+                                <td>Android</td>
+                                <td>Xcode</td>
+                                <td>Java</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Blackberry OS</td>
+                                <td>Oauth</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Windows OS</td>
+                                <td>Ionic</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>HP WebOS</td>
+                                <td>jQuery Mobile</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Verivo Software</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>TheAppBuilder</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Appery.io</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Appcelerator</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>AppMachine</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>AppMakr</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>AppYourself</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Appy Pie</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Bizness Apps</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Como</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Dojo Mobile</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>GameSalad</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Good Barber</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Kalipso Studio</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Kony</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Mobile Roadie</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Pega AMP</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>SAP</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Sench Touch</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <!-- Tech Stack -->
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <br/>
+        </footer>
+
     </div>
-    <!-- end of wrapper -->
 
-    <!-- section one -->
-    <div id="list-container">
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
 
-      <div id="list-1" class="list">
-        <div class="icon"></div>
-        <div class="title">Operating Systems</div><ul>
-            <li><a href="#">Apple iOS</a></li>
-            <li><a href="#">Andriod</a></li>
-            <li><a href="#">Blackberry OS</a></li>
-            <li><a href="#">Windows OS</a></li>
-            <li><a href="#">HP WebOS</a></li>
-        </ul>
-      </div>
-
-
-      <div id="list-1" class="list">
-        <div class="icon"></div>
-        <div class="title">Platforms</div>
-        <ul>
-            <li><a href="#">Xamarin</a></li>
-            <li><a href="#">Xcode</a></li>
-            <li><a href="#">Oauth</a></li>
-            <li><a href="#">Ionic</a></li>
-            <li><a href="#">jQuery Mobile</a></li>
-            <li><a href="#">Verivo Software</a></li>
-            <li><a href="#">TheAppBuilder</a></li>
-            <li><a href="#">Appery.io</a></li>
-            <li><a href="#">Appcelerator</a></li>
-            <li><a href="#">AppMachine</a></li>
-            <li><a href="#">AppMakr</a></li>
-            <li><a href="#">AppYourself</a></li>
-            <li><a href="#">Appy Pie</a></li>
-            <li><a href="#">Bizness Apps</a></li>
-            <li><a href="#">Como</a></li>
-            <li><a href="#">Dojo Mobile</a></li>
-            <li><a href="#">GameSalad</a></li>
-            <li><a href="#">Good Barber</a></li>
-            <li><a href="#">Kalipso Studio</a></li>
-            <li><a href="#">Kony</a></li>
-            <li><a href="#">Mobile Roadie</a></li>
-            <li><a href="#">Pega AMP</a></li>
-            <li><a href="#">SAP</a></li>
-            <li><a href="#">Sench Touch</a></li>
-
-        </ul>
-      </div>
-
-      <div id="list-1" class="list">
-        <div class="icon"></div>
-        <div class="title">Languages</div><ul>
-            <li><a href="#">Swift</a></li>
-            <li><a href="#">Java</a></li>
-        </ul>
-      </div>
-
-      
-      <div id="list-1" class="list">
-        <div class="icon"></div>
-        <div class="title">API</div><ul>
-            <li><a href="#">Cocoa</a></li>
-        </ul>
-      </div>
-      
-    </div>
-    <!-- end of section one -->
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="./list-toggle.js" type="text/javascript"></script>
 </body>
 
 </html>
